@@ -20,6 +20,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-
+  build: {
+    transpile: ["oh-vue-icons"]
+  },
   modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', '@formkit/auto-animate/nuxt'],
 })
